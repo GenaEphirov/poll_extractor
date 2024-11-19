@@ -1,4 +1,4 @@
-class Poll_extractor(data):
+class Poll_extractor():
     def __init__(self, data):
         self.init_data = data
         self.data = [self.init_data]
